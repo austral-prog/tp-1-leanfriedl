@@ -9,3 +9,13 @@ def price():
     4. El precio final (subtotal + propina)
     """
     precio_base = 100
+    mont_imp = 21 * 100 / (precio_base)
+    print(mont_imp)
+    mont_sub = (precio_base) + (mont_imp)
+    print(mont_sub)
+    mont_pro = 10 + 100 / (mont_sub)
+    print(mont_pro)
+    mont_fin = (mont_sub) + (mont_pro)
+    print(mont_fin)
+
+price()

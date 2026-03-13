@@ -13,3 +13,19 @@ def math():
     """
     a = 57
     b = 7
+    suma = a + b
+    print (suma)
+    dife = a-b
+    print(dife)
+    prod= a*b
+    print(prod)
+    prom = (suma) /2
+    print(prom)
+    coci = a//b
+    print(coci)
+    rest = a%b
+    print(rest)
+    valo = a / b
+    print(valo)
+
+math()

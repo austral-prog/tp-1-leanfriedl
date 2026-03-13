@@ -11,3 +11,11 @@ def grades():
     nota1 = 8
     nota2 = 7
     nota3 = 9
+    prom_1 = (nota1) /2
+    print(prom_1)
+    prom_2 = (nota2) /2
+    print(prom_2)
+    prom_3 = (nota3) /2
+    print(prom_3)
+
+grades()

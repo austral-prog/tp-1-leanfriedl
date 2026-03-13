@@ -1,5 +1,5 @@
 from math import pi
-
+import math
 
 def circle():
     """
@@ -10,3 +10,9 @@ def circle():
     2. La circunferencia (2 × π × radio)
     """
     radio = 5
+    area = math.pi * (radio) ** 2
+    print(area)
+    circ = 2 * math.pi * (radio)
+    print(circ)
+
+circle()
