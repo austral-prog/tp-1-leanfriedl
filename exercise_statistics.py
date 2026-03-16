@@ -12,7 +12,7 @@ def statistics():
     num2 = 8
     num3 = 23
     num4 = 12
-    prom = (num1 + num2 + num3 + num4) / 2
+    prom = (num1 + num2 + num3 + num4) / 4
     print(prom)
     maxi = max(num1,num2,num3,num4)
     print(maxi)

@@ -6,17 +6,19 @@ def currency():
     1. El monto en dólares
     2. El monto en euros
     3. El monto en reales brasileños
+  """
     """
     pesos = 10000
     tasa_dolar = 1500  # 1 dólar = 1500 pesos
     tasa_euro = 1600   # 1 euro = 1600 pesos
     tasa_real = 250    # 1 real = 250 pesos
+    """
 
-    mont_dolar = 10000 // 1500
+    mont_dolar = round(10000/1500,2)
     print(mont_dolar)
-    mont_euro = 10000 // 1600
+    mont_euro = round(10000/1600,2)
     print(mont_euro)
-    mont_real = 10000 // 250
+    mont_real = round(10000/250,2)
     print(mont_real)
 
 currency()

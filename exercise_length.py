@@ -12,13 +12,13 @@ def length():
     km = (metros) / (metros)
     print(km)
     millas = 1609.34
-    mi = (metros) * (millas)
-    print(mi)
+    mill = round((metros) / (millas),2)
+    print(mill)
     pies = 0.3048
-    pi = (metros) * (pies)
-    print(pi)
+    pie = round((metros) / (pies),2)
+    print(pie)
     pulgadas = 0.0254
-    pu = (metros) * (pulgadas)
-    print (pu)
+    pulga = round((metros) / (pulgadas),2)
+    print (pulga)
 
 length()

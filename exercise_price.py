@@ -13,7 +13,7 @@ def price():
     print(mont_imp)
     mont_sub = (precio_base) + (mont_imp)
     print(mont_sub)
-    mont_pro = 10 + 100 / (mont_sub)
+    mont_pro = ((mont_sub)*10/100)
     print(mont_pro)
     mont_fin = (mont_sub) + (mont_pro)
     print(mont_fin)
